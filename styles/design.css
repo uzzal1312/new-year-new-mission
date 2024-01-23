@@ -1,36 +1,69 @@
-.header-class {
+.top-part {
     position: relative;
-    margin-left: 140px;
-    margin-right: 140px;
 }
 
-.header-img {
-    width: 100%;
-    height: 100%;
-    margin-top: 50px;
-    filter: brightness(60%);
+.main-poster {
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, black, transparent), url(/resources/Banner\ Image.png);
+    margin: 50px auto 120px auto;
+    border-radius: 18px;
 }
 
-.header-text {
-    font-family: 'Merriweather', serif;
+.greeting-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
     width: 100%;
     text-align: center;
 }
 
-.header-text-1 {
-    color: white;
+.new-year-text1 {
+    color: #FFF;
+    font-family: Merriweather;
     font-size: 32px;
-    margin-bottom: 0px;
-    font-weight: 400;
-    padding-top:95px;
+    margin-bottom: 5px;
 }
 
-.header-text-2 {
-    margin-top: 20px;
-    color: white;
+.new-year-text2 {
+    color: #FFF;
+    font-family: Merriweather;
     font-size: 72px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+/*section2*/
+.offer {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+.offer-img {
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
