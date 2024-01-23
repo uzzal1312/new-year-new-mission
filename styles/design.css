@@ -6,8 +6,8 @@
     width: 1320px;
     height: 600px;
     background-image: linear-gradient(to bottom, black, transparent), url(/resources/Banner\ Image.png);
-    margin: 50px auto 120px auto;
-    border-radius: 18px;
+    margin: 50px auto 100px auto;
+    border-radius: 20px;
 }
 
 .greeting-text {
@@ -39,7 +39,8 @@
     font-family: Inter;
     font-size: 85px;
     font-weight: 700;
-    margin-bottom: 48px;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 .deals {
@@ -66,4 +67,59 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*section3*/
+
+.welcome {
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to right, black, transparent), url(/resources/Vectorrr.png);
+    border-radius: 18px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-greeting {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin: 0 94px 26px 120px;
+}
+
+.message {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 35px 45px 120px;
+}
+
+.join {
+    text-decoration: none;
+    margin: 0 132px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.join:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.join:active{
+    text-decoration: none;
+    opacity: 0.5;
+}
+.welcome img{
+    width: 320px;
+    height: 465px;
+    margin-right: 138px;
 }
